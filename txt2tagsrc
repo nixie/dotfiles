@@ -1,0 +1,13 @@
+% my configs
+
+%%% Always use CSS-friendly tags in HTML
+%!options(html): --css-sugar
+
+%%% Change the default TOC depth for all targets
+%!options: --toc-level 4
+
+%%% Set the default encoding for all documents
+%!options: --encoding utf8
+
+
+%!preproc:  %%date  %%date(%d.%m.%Y %H:%M)

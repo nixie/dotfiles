@@ -1,0 +1,181 @@
+! not supported by XCB yet
+!Xcursor.theme: gruppled_white
+
+! rxvt-unicode ---------------------------------------------------------------
+
+! font preference
+urxvt*font: xft:Terminus (TTF)-12
+!urxvt*font:      -*-terminus-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*boldFont:  -*-terminus-*-*-*-*-*-*-*-*-*-*-*-*
+!initial size
+urxvt*geometry:           80x24
+!internal whitespace
+urxvt*internalBorder:     5
+!fade text n% upon unfocus
+!urxvt*fading:             20
+!darken=(0 to 100) lighten=(-1 to -100)
+urxvt*shading:            10
+!tint background with this color
+!urxvt*tintColor:          black
+!set to 32-bit for real transparency (compositing required)
+!urxvt*depth:             24
+!save n lines of scrollback buffer
+urxvt*saveLines:          32767
+!flash screen for attention
+urxvt*visualBell:         true
+   
+urxvt.urgentOnBell: true
+
+!jump to bottom (prompt) on keypress
+urxvt*scrollTtyKeypress:  true
+!jump to bottom (prompt) when tty gets new lines
+urxvt*scrollWithBuffer:   false
+!jump to bottom (prompt) on tty output
+urxvt*scrollTtyOutput:    false
+!toggle scrollbar
+urxvt*scrollBar:          false
+!scrollbar styles: rxvt, plain, next or xterm
+urxvt*scrollstyle:        plain
+!scrollbar alignment
+urxvt*scrollBar_right:    true
+!urxvt*scrollColor:        #777777
+urxvt*cursorColor:        #ff0000
+!is this a login shell?
+urxvt*loginShell:         true
+!set the TERM environment variable
+urxvt*termName:           rxvt-256color
+!enable pseudo-transparency (requires depth: 24 (see above))
+!urxvt*inheritPixmap:      true
+!delimiters for double-click mouse selection
+urxvt*cutchars:           "()*,<>[]{}|"
+!screen dump settings
+urxvt*print-pipe:         cat > $(echo urxvt.dump.$(date +'%Y%M%d%H%m%S'))
+!secondary screen scroll (default enabled)
+urxvt*secondaryScroll:    true
+!de-iconify (map) on receipt of a bell character
+urxvt*mapAlert:           true
+!inhibit writing record into the system log file utmp
+urxvt*utmpInhibit:        true
+!! BEGIN urlLauncher settings !!
+!urxvt*perl-lib:           /usr/lib/urxvt/perl/
+!urxvt*perl-ext-common:    default,matcher
+!urxvt*urlLauncher:        /usr/bin/swiftfox
+!urxvt*matcher.button:     1
+!! END urlLauncher settings !!
+urxvt.perl-ext-common: default,matcher,-option-popup,-selection-popup,-realine,option-popup
+urxvt.matcher.button: 1
+
+urxvt.urlLauncher: /usr/bin/swiftfox
+
+!transparent=0000 opaque=ffff
+!urxvt*background: rgba:1111/1111/1111/dddd
+!urxvt*foreground: rgba:1100/1100/aaaa/dddd
+
+
+! Zenburn color-scheme (dark)
+urxvt*background:  #3f3f3f
+urxvt*background: #1c1c1c
+urxvt*foreground:  #ABBC92
+
+
+!urxvt*background: #eeeeee
+!urxvt*foreground:  #33333f
+!
+! black + red
+!urxvt*color0:     #3f3f3f
+urxvt*color0:      #1E2320
+urxvt*color1:      #705050
+! green + yellow
+urxvt*color2:      #60b48a
+urxvt*color3:      #dfaf8f
+! blue + purple
+urxvt*color4:      #506070
+urxvt*color5:      #dc8cc3
+! cyan + white
+urxvt*color6:      #8cd0d3
+urxvt*color7:      #dcdccc
+! bright-black + bright-red
+urxvt*color8:      #709080
+urxvt*color9:      #dca3a3
+! bright-green + bright-yellow
+urxvt*color10:     #c3bf9f
+urxvt*color11:     #f0dfaf
+! bright-blue + bright-purple
+urxvt*color12:     #94bff3
+urxvt*color13:     #ec93d3
+! bright-cyan + bright-white
+urxvt*color14:     #93e0e3
+urxvt*color15:     #ffffff
+!}}}
+
+
+!{{{ XFT
+!Xft.dpi:       96
+!Xft.antialias: 0
+!Xft.hinting:   0
+!Xft.hintstyle: hintfull
+!Xft.rgba:      rgb
+!}}}
+
+!{{{ XMESSAGE
+Xmessage*background:            #3F3F3F
+Xmessage*foreground:            #F0DFAF
+Xmessage*form.*.shapeStyle:     rectangle
+Xmessage*Scrollbar.width:       1
+Xmessage*Scrollbar.borderWidth: 0
+Xmessage.form.message.Scroll:  WhenNeeded
+Xmessage*Buttons:               Quit
+Xmessage*defaultButton:         Quit
+Xmessage*geometry:            300x100
+
+!}}}
+
+!{{{ XFONTSEL
+XFontSel*menu*showUnselectable:       false
+XFontSel*sampleText.background:      TEXTBG
+XFontSel*MenuButton.shadowWidth:          0
+XFontsel*Toggle*ToggleStyle:          check
+XFontsel*MenuButton*Justify:           left
+XFontsel*MenuButton*MenuButtonStyle: select
+xfontsel.pane.commandBox.quitButton.background: #777777
+xfontsel.pane.commandBox.quitButton.foreground: snow
+xfontsel.pane.commandBox.ownButton.background:  orange3
+xfontsel.pane.commandBox.ownButton.foreground:  snow
+xfontsel.pane.commandBox.countLabel.background: snow
+xfontsel.pane.viewPort.sampleText.background:   #777777
+xfontsel.pane.viewPort.sampleText.foreground:   snow
+xfontsel.pane.fieldBox.field0.background:  #777777
+xfontsel.pane.fieldBox.field0.foreground:  snow
+xfontsel.pane.fieldBox.field1.background:  #777777
+xfontsel.pane.fieldBox.field1.foreground:  snow
+xfontsel.pane.fieldBox.field2.background:  #777777
+xfontsel.pane.fieldBox.field2.foreground:  snow
+xfontsel.pane.fieldBox.field3.background:  #777777
+xfontsel.pane.fieldBox.field3.foreground:  snow
+xfontsel.pane.fieldBox.field4.background:  #777777
+xfontsel.pane.fieldBox.field4.foreground:  snow
+xfontsel.pane.fieldBox.field5.background:  #777777
+xfontsel.pane.fieldBox.field5.foreground:  snow
+xfontsel.pane.fieldBox.field6.background:  #777777
+xfontsel.pane.fieldBox.field6.foreground:  snow
+xfontsel.pane.fieldBox.field7.background:  #777777
+xfontsel.pane.fieldBox.field7.foreground:  snow
+xfontsel.pane.fieldBox.field8.background:  #777777
+xfontsel.pane.fieldBox.field8.foreground:  snow
+xfontsel.pane.fieldBox.field9.background:  #777777
+xfontsel.pane.fieldBox.field9.foreground:  snow
+xfontsel.pane.fieldBox.field10.background: #777777
+xfontsel.pane.fieldBox.field10.foreground: snow
+xfontsel.pane.fieldBox.field11.background: #777777
+xfontsel.pane.fieldBox.field11.foreground: snow
+xfontsel.pane.fieldBox.field12.background: #777777
+xfontsel.pane.fieldBox.field12.foreground: snow
+xfontsel.pane.fieldBox.field13.background: #777777
+xfontsel.pane.fieldBox.field13.foreground: snow
+xfontsel.pane.fieldBox*foreground:         #000000
+xfontsel.pane.fieldBox.MenuButton.borderWidth:   1
+xfontsel.pane.fieldBox.MenuButton.internalHeight:1
+xfontsel.pane.fieldBox.MenuButton.internalWidth: 2
+xfontsel.pane.fieldBox.MenuButton.shapeStyle:    rectangle
+!}}}
+

@@ -1,0 +1,18 @@
+"1.0b5 (created: 2011/01/19 03:34:56)
+
+loadplugins '\.(js|penta)$'
+map -modes=n,v h :back<Return>
+map -modes=n,v l :forward<Return>
+map -modes=n,v <S-e> <C-^>
+map -modes=n,v H :2back<Return>
+map -modes=n,v <BS> <PageUp><Down>
+map -modes=n,v <C-w> d
+map -modes=n,v E <C-^>
+
+set! browser.tabs.closeWindowWithLastTab=false
+set autocomplete=
+set visualbell
+set hlfind
+set guioptions=s
+
+" vim: set ft=pentadactyl:

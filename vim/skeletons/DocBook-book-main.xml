@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-2" standalone="no"?>
+<!-- Date: skeletonVIM_CREATION_DATETIME
+     Author: skeletonVIM_USER_NAME -->
+<!DOCTYPE book PUBLIC "-//OASIS/DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
+<!ENTITY datetime "skeletonVIM_CREATION_DATETIME">
+<!ENTITY title "skeletonVIM_FILE_BASE">
+]>
+
+<book lang="cs">
+  <bookinfo>
+    <title>&title;</title>
+    <author>
+      <honorific></honorific>
+      <firstname></firstname>
+      <surname></surname>
+    </author>
+  </bookinfo>
+
+  <preface>
+    <title></title>
+    <para></para>
+  </preface>
+
+  <chapter>
+    <title></title>
+    <para></para>
+  </chapter>
+
+  <appendix>
+    <title></title>
+    <para></para>
+  </appendix>
+</book>

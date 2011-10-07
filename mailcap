@@ -1,0 +1,15 @@
+image/*;/usr/bin/gqview %s
+text/plain;/usr/bin/vim %s
+application/pdf;/usr/bin/evince %s
+application/msword;/usr/bin/soffice -w %s
+application/rtf;/usr/bin/soffice -w %s
+application/x-compressed-tar;/usr/bin/squeeze %s
+application/zip;/usr/bin/file-roller %s
+video/mpeg; mplayer %s
+#text/html;                      links -codepage utf-8 %s; nametemplate=%s.html
+#text/html;                      links -dump %s; nametemplate=%s.html; copiousoutput
+text/html;                      elinks %s; nametemplate=%s.html;
+text/html;                      elinks -dump %s; nametemplate=%s.html; copiousoutput
+#text/html; swiftfox %s 
+
+

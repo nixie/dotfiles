@@ -1,0 +1,18 @@
+keycode 166 = F19
+keycode 167 = F20
+keycode 77 = Num_Lock
+! No Caps Lock
+clear lock
+! Caps Lock as Win key
+add mod4 = Caps_Lock
+
+remove Lock = Caps_Lock
+keysym Caps_Lock = Super_L
+
+! AltGr + l -> slash
+keycode 46 = l L l L slash slash
+
+
+keycode 108 = ISO_Level3_Shift
+keycode 64 = Alt_L
+!keycode 78 = Sys_Req
