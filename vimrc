@@ -129,6 +129,8 @@ set autoindent
 
 " sizo of TAB
 set tabstop=4
+set sts=4   " when removing spaces in the begining of line, remove 4 (as it would
+            " be TAB
 
 " autoindent size of TAB
 set shiftwidth=4
