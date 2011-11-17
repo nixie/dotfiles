@@ -23,7 +23,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-alignment bottom_left
+alignment bottom-left
 background no
 border_width 0
 cpu_avg_samples 2
@@ -40,13 +40,13 @@ xftfont Terminus:size=6
 #gap_x 10
 gap_y 10
 minimum_size 600 100
-maximum_width 1350
+maximum_width 1300
 net_avg_samples 2
 no_buffers no
 out_to_console no
 out_to_stderr no
 extra_newline no
-own_window no
+own_window yes
 double_buffer yes
 own_window_class Conky
 own_window_type override
@@ -62,5 +62,5 @@ border_inner_margin 0
 color1 102053
 
 TEXT
-${color white}tail -fn 30 /var/log/everything.log${color lightgreen}
-${tail /var/log/everything.log 30}
+${color lightgreen}
+${tail /var/log/messages.log 30}
