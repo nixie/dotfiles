@@ -27,7 +27,7 @@ syntax region Function start=/''/ end=/''/
 syntax on
 
 :set listchars=tab:\|_,trail:.,eol:$
-set fileencodings=utf-8,cp1250,latin2
+set fileencodings=utf-8,latin2,cp1250
 
 filetype plugin indent on
 
@@ -86,8 +86,10 @@ map <F4> :TlistToggle<CR>
 
 map <F5> :make<CR> 
 imap <F5> <Esc>:make<CR>
-map <F6> :set list!<CR>
-imap <F6> <Esc>:set list!<CR>
+map <F6> :make run<CR>
+imap <F6> <Esc>:make<CR>
+map <F7> :set list!<CR>
+imap <F7> <Esc>:set list!<CR>
 
 map <F9> gT
 imap <F9> <Esc>gT
